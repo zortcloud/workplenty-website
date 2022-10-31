@@ -1,7 +1,5 @@
-.body{
-  scroll-behavior: smooth;
-}
- .fr-clearfix::after {
+
+.fr-clearfix::after {
   clear: both;
   display: block;
   content: "";
@@ -38984,10 +38982,11 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 1199px) {
   .u-footer .u-sheet-1 {
-    min-height: 585px;
+    min-height: 224px;
   }
 
   .u-footer .u-layout-wrap-1 {
+    margin-bottom: 0;
     margin-right: initial;
     margin-left: initial;
   }
@@ -39028,6 +39027,10 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 991px) {
+  .u-footer .u-sheet-1 {
+    min-height: 585px;
+  }
+
   .u-footer .u-layout-cell-1 {
     min-height: 160px;
   }
@@ -39053,12 +39056,6 @@ a.u-link.u-text-hover-grey-90:hover {
 @media (max-width: 767px) {
   .u-footer .u-sheet-1 {
     min-height: 704px;
-  }
-
-  .u-footer .u-layout-wrap-1 {
-    margin-bottom: 0;
-    margin-right: initial;
-    margin-left: initial;
   }
 
   .u-footer .u-layout-cell-1 {
@@ -39103,12 +39100,6 @@ a.u-link.u-text-hover-grey-90:hover {
     min-height: 585px;
   }
 
-  .u-footer .u-layout-wrap-1 {
-    margin-bottom: 60px;
-    margin-right: initial;
-    margin-left: initial;
-  }
-
   .u-footer .u-layout-cell-1 {
     min-height: 151px;
   }
@@ -39130,4 +39121,4 @@ a.u-link.u-text-hover-grey-90:hover {
 
  /*begin-variables base-font-size*/ 
  html { font-size: 16px; }
- /*end-variables base-font-size*/
+ end-variables base-font-size
